@@ -1,0 +1,331 @@
+{
+  "name": "K Sree Charan",
+  "title": "Full Stack Developer at MAQ Software Solutions",
+  "technologies": ["React", "Node.js", "TypeScript", "Next.js"],
+  "experienceSummary": {
+    "yearsExperience": "2+",
+    "projectsCompleted": "15+",
+    "technologiesKnown": "10+",
+    "hackathonsParticipated": "8+"
+  },
+  "workExperience": [
+    {
+      "role": "Full Stack Developer",
+      "type": "Full-time",
+      "company": "MAQ Software Solutions",
+      "years": "2023 - Present",
+      "location": "Hyderabad, India",
+      "achievements": ["Led development of 5+ web applications", "Improved app performance by 40%", "Mentored 2 junior developers"],
+      "technologies": ["React", "Node.js", "TypeScript", "MongoDB", "Express.js", "AWS"]
+    },
+    {
+      "role": "Software Developer Intern",
+      "type": "Internship",
+      "company": "Tech Solutions Inc.",
+      "years": "2022 - 2023",
+      "location": "Remote",
+      "achievements": ["Completed 3 major projects", "Received outstanding performance rating", "Converted to full-time position"],
+      "technologies": ["React", "JavaScript", "HTML/CSS", "Git", "REST APIs"]
+    },
+    {
+      "role": "Freelance Web Developer",
+      "type": "Freelance",
+      "company": "Self Employed",
+      "years": "2021 - 2022",
+      "location": "Remote",
+      "achievements": ["Completed 10+ client projects", "Maintained 100% client satisfaction", "Built recurring revenue stream"],
+      "technologies": ["HTML", "CSS", "JavaScript", "WordPress", "PHP"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology",
+      "field": "Computer Science Engineering",
+      "institution": "Your University Name",
+      "years": "2020 - 2024",
+      "location": "Your City, India",
+      "grade": "9.0 CGPA",
+      "achievements": ["Dean's List for Academic Excellence", "President of Computer Science Club", "Winner of Inter-College Coding Competition", "Published research paper on Web Technologies"]
+    },
+    {
+      "qualification": "Senior Secondary (12th)",
+      "field": "Science (PCM)",
+      "institution": "Your School Name",
+      "years": "2018 - 2020",
+      "location": "Your City, India",
+      "grade": "94.82%",
+      "achievements": ["School Topper in Computer Science", "State Level Mathematics Olympiad Participant", "Science Club Secretary"]
+    }
+  ],
+  "certifications": [
+    { "name": "AWS Cloud Practitioner", "issuer": "Amazon Web Services", "year": "2024", "id": "AWS-CCP-12345" },
+    { "name": "React Developer Certification", "issuer": "Meta (Facebook)", "year": "2024", "id": "META-REACT-789" },
+    { "name": "Python for Data Science", "issuer": "IBM", "year": "2023", "id": "IBM-PY-456" },
+    { "name": "Full Stack Web Development", "issuer": "Coursera", "year": "2023", "id": "COURSERA-FS-321" }
+  ],
+  "skills": {
+    "frontend": {
+      "React": "90%",
+      "Next.js": "85%",
+      "TypeScript": "80%",
+      "JavaScript": "95%",
+      "HTML/CSS": "90%",
+      "Tailwind CSS": "85%"
+    },
+    "backend": {
+      "Node.js": "85%",
+      "Express.js": "80%",
+      "Python": "75%",
+      "REST APIs": "90%",
+      "GraphQL": "70%",
+      "Microservices": "75%"
+    },
+    "databaseAndCloud": {
+      "MongoDB": "85%",
+      "PostgreSQL": "80%",
+      "MySQL": "75%",
+      "AWS": "70%",
+      "Firebase": "80%",
+      "Redis": "65%"
+    },
+    "tools": {
+      "Git/GitHub": "90%",
+      "Docker": "75%",
+      "VS Code": "95%",
+      "Postman": "85%",
+      "Figma": "70%",
+      "Jira": "80%"
+    },
+    "mobileDevelopment": {
+      "React Native": "75%",
+      "Flutter": "65%",
+      "Mobile UI/UX": "80%"
+    },
+    "programmingLanguages": {
+      "JavaScript": "95%",
+      "TypeScript": "85%",
+      "Python": "80%",
+      "Java": "70%",
+      "C++": "65%"
+    }
+  },
+  "proficiencyLegend": {
+    "Expert": "90%+",
+    "Advanced": "80-89%",
+    "Intermediate": "70-79%",
+    "Beginner": "60-69%"
+  },
+  "projects": [
+    {
+      "name": "AgriVision",
+      "category": "Full Stack",
+      "description": "A comprehensive agricultural platform with AI‑powered crop detection, growth monitoring, and market insights.",
+      "duration": "3 months",
+      "teamSize": 4,
+      "Members" : ["K Sree Charan", "Bighnesh Kumar Sahoo", "Shubham Pandey", "Sarthak Awasthi"],    
+      "Project_photo" :["agrivision_dashboard.jpg", "agrivision_crop_detection.jpg", "agrivision_analytics.jpg"],
+      "Member_photos" : ["ksreecharan.jpg", "bighnesh.jpg", "shubham.jpg", "sarthak.jpg"],
+      "githubLink": "https://github.com/yourusername/agri-vision",
+      "technologies": ["React", "Node.js", "Python", "and more"],
+      "features": ["AI‑powered plant disease detection", "Crop growth monitoring", "Market price predictions"]
+    },
+    {
+      "name": "Health Buddy",
+      "category": "Healthcare",
+      "description": "Heart Disease Prediction and Notification System - A comprehensive medical alert system that predicts the risk of heart disease using advanced machine learning techniques and agent-based message passing. The system evaluates patient health data for potential heart disease risks and automates the process of delivering results to patients via email notifications.",
+      "duration": "4 months",
+      "teamSize": 3,
+      "Project_photo": ["healthbuddy_dashboard.jpg", "healthbuddy_prediction.jpg", "healthbuddy_tracker.jpg"],
+      "Member_photos": ["ksreecharan.jpg", "healthbuddy_member1.jpg", "healthbuddy_member2.jpg"],
+      "githubLink": "https://github.com/SreeCharan1234/health-buddy",
+      "deploymentLink": "https://health-buddy.streamlit.app/",
+      "linkdin post ": "https://www.linkedin.com/posts/sreecharan1234_healthbuddy-healthcare-activity-1234567890",
+      "technologies": ["React", "Node.js", "Machine Learning", "uAgents Framework", "Joblib", "Pandas", "Mailjet API", "Python"],
+      "features": [
+        "AI-powered heart disease prediction using ML models",
+        "Agent-based interaction with automated notification system", 
+        "Email alerts for immediate patient notification",
+        "Secure data privacy through agent communication",
+        "Early detection system for preventive healthcare",
+        "Scalable architecture for handling multiple patients"
+      ],
+      "projectDetails": {
+        "overview": "This project is a medical alert system that predicts the risk of heart disease and notifies the patient via email. Using advanced machine learning techniques and agent-based message passing, this system evaluates a patient's health data for potential heart disease risks and automates the process of delivering this result to the patient.",
+        "importance": "Heart disease remains a leading cause of death worldwide, and early diagnosis is critical for effective treatment. This project leverages machine learning to assess a user's health indicators, potentially identifying early signs of heart disease.",
+        "problemsAddressed": [
+          "Agent-Based Interaction: Creates distributed architecture where each agent has specific roles",
+          "Automated Notification: Eliminates manual notification delays and errors",
+          "Data Privacy: Secure communication between agents with minimal data exposure",
+          "Scalability: Easy addition of new agents without overloading existing structure"
+        ],
+        "technicalComponents": {
+          "agents": {
+            "alice": "Prediction Agent - Handles heart disease risk prediction using trained ML model",
+            "bob": "Notification Agent - Manages email notification delivery to patients"
+          },
+          "dataCollection": "Collects key patient information: age, sex, cp, trestbps, chol, fbs, restecg, thalach, exang, oldpeak, slope, ca, thal",
+          "predictionModel": "Uses pre-trained model (heart_new.pkl) to predict heart disease risk",
+          "notification": "Automated email system using Mailjet API for patient alerts"
+        },
+        "benefits": [
+          "Early Detection: Helps in early detection of heart disease, potentially saving lives",
+          "Healthcare Efficiency: Reduces manual work for healthcare providers",
+          "Patient Convenience: Direct email notifications without manual checking",
+          "Enhanced Security: Secure agent-based data sharing for healthcare applications"
+        ],
+        "futureEnhancements": [
+          "Multi-Agent Communication for additional functionalities",
+          "Data Visualization with graphs and charts",
+          "Mobile App Integration for real-time notifications",
+          "Extended Health Monitoring for broader diagnoses"
+        ]
+      }
+    },
+    {
+      "name": "Study Buddy",
+      "category": "Education",
+      "description": "An educational platform with coding challenges, roadmaps, and peer‑to‑peer learning features.",
+      "duration": "2 months",
+      "teamSize": 2,
+      "Project_photo": ["studybuddy_challenges.jpg", "studybuddy_roadmap.jpg", "studybuddy_competition.jpg"],
+      "Member_photos": ["ksreecharan.jpg", "studybuddy_partner.jpg"],
+      "technologies": ["React", "Node.js", "Socket.io", "and more"],
+      "features": ["Interactive coding challenges", "Learning roadmaps", "1v1 coding competitions"]
+    },
+    {
+      "name": "Sarthi",
+      "category": "Logistics",
+      "description": "A comprehensive logistics and transportation management system with payment integration.",
+      "duration": "3 months",
+      "teamSize": 4,
+      "Project_photo": ["sarthi_tracking.jpg", "sarthi_payment.jpg", "sarthi_route.jpg"],
+      "Member_photos": ["ksreecharan.jpg", "sarthi_member1.jpg", "sarthi_member2.jpg", "sarthi_member3.jpg"],
+      "technologies": ["React", "Node.js", "Razorpay", "and more"],
+      "features": ["Real‑time tracking", "Payment gateway integration", "Route optimization"]
+    },
+    {
+      "name": "Suraksha Suchak",
+      "category": "Security",
+      "description": "A security monitoring and alert system for enhanced safety and surveillance.",
+      "duration": "5 months",
+      "teamSize": 5,
+      "Project_photo": ["suraksha_monitoring.jpg", "suraksha_detection.jpg", "suraksha_alerts.jpg"],
+      "Member_photos": ["ksreecharan.jpg", "suraksha_member1.jpg", "suraksha_member2.jpg", "suraksha_member3.jpg", "suraksha_member4.jpg"],
+      "technologies": ["React", "Node.js", "WebRTC", "and more"],
+      "features": ["Real‑time video monitoring", "Automatic threat detection", "Emergency alert system"]
+    },
+    {
+      "name": "Code Off Duty",
+      "category": "EdTech",
+      "description": "A competitive programming platform with contests, leaderboards, and skill assessments.",
+      "duration": "4 months",
+      "teamSize": 3,
+      "Project_photo": ["codeoffduty_contests.jpg", "codeoffduty_leaderboard.jpg", "codeoffduty_judge.jpg"],
+      "Member_photos": ["ksreecharan.jpg", "codeoffduty_member1.jpg", "codeoffduty_member2.jpg"],
+      "technologies": ["React", "Node.js", "Judge0 API", "and more"],
+      "features": ["Online code execution", "Contest management", "Real‑time leaderboards"]
+    }
+  ],
+  "hackathons": {
+    "totalParticipated": "8+",
+    "winsOrTopPlaces": 5,
+    "teamMembers": "20+",
+    "yearsActive": 2,
+    "events": [
+      {
+        "event": "DevFest",
+        "result": "1st Place – Best Innovation Award",
+        "monthYear": "November 2023",
+        "host": "Google Developer Community",
+        "teamSize": 4,
+        "event_photos": ["devfest_presentation.jpg", "devfest_demo.jpg", "devfest_award.jpg"],
+        "team_photos": ["devfest_team1.jpg", "devfest_team2.jpg", "devfest_team3.jpg", "devfest_team4.jpg"],
+        "technologies": ["React", "Node.js", "AI/ML", "IoT"],
+        "awards": ["Best Innovation Award", "People's Choice Award", "₹50,000 Prize Money"]
+      },
+      {
+        "event": "Microsoft Hackathon",
+        "result": "2nd Place – Azure Innovation Challenge",
+        "monthYear": "October 2023",
+        "host": "Microsoft India",
+        "teamSize": 3,
+        "event_photos": ["microsoft_presentation.jpg", "microsoft_azure.jpg", "microsoft_ceremony.jpg"],
+        "team_photos": ["microsoft_team1.jpg", "microsoft_team2.jpg", "microsoft_team3.jpg"],
+        "technologies": ["Azure", "React", "C#.NET"],
+        "awards": ["2nd Place Winner", "Azure Credits Worth ₹25,000", "Microsoft Certification"]
+      },
+      {
+        "event": "Kriyeta 3.0",
+        "result": "Winners – Technical Innovation",
+        "monthYear": "September 2023",
+        "host": "Technical Festival",
+        "teamSize": 5,
+        "event_photos": ["kriyeta_project.jpg", "kriyeta_innovation.jpg", "kriyeta_winners.jpg"],
+        "team_photos": ["kriyeta_team1.jpg", "kriyeta_team2.jpg", "kriyeta_team3.jpg", "kriyeta_team4.jpg", "kriyeta_team5.jpg"],
+        "technologies": ["IoT", "Python", "React", "MongoDB"],
+        "awards": ["Overall Winners", "Best Technical Implementation", "₹30,000 Prize Money"]
+      },
+      {
+        "event": "Build-a-thon",
+        "result": "3rd Place – Rapid Prototyping Challenge",
+        "monthYear": "August 2023",
+        "host": "Tech Community",
+        "teamSize": 2,
+        "event_photos": ["buildathon_prototype.jpg", "buildathon_demo.jpg", "buildathon_ui.jpg"],
+        "team_photos": ["buildathon_team1.jpg", "buildathon_team2.jpg"],
+        "technologies": ["Next.js", "Node.js", "Stripe", "MongoDB"],
+        "awards": ["3rd Place", "Best UI/UX Design", "Mentorship Program"]
+      },
+      {
+        "event": "Code-a-haunt",
+        "result": "Finalist – Halloween Coding Challenge",
+        "monthYear": "October 2022",
+        "host": "Online Event",
+        "teamSize": 1,
+        "event_photos": ["codeahaunt_project.jpg", "codeahaunt_animation.jpg", "codeahaunt_certificate.jpg"],
+        "team_photos": ["codeahaunt_solo.jpg"],
+        "technologies": ["JavaScript", "HTML/CSS", "Animation"],
+        "awards": ["Top 10 Finalist", "Creative Coding Award", "Community Recognition"]
+      },
+      {
+        "event": "Arena",
+        "result": "Top Performer – Competitive Programming",
+        "monthYear": "March 2023",
+        "host": "Programming Contest",
+        "teamSize": 1,
+        "event_photos": ["arena_coding.jpg", "arena_leaderboard.jpg", "arena_achievement.jpg"],
+        "team_photos": ["arena_solo.jpg"],
+        "technologies": ["C++", "Algorithms", "Data Structures"],
+        "awards": ["Top 50 Performers", "Problem Solving Excellence", "Certificate of Merit"]
+      },
+      {
+        "event": "Code of Duty",
+        "result": "Winner – Competitive Programming Championship",
+        "monthYear": "December 2023",
+        "host": "University Competition",
+        "teamSize": 1,
+        "event_photos": ["codeofduty_championship.jpg", "codeofduty_solution.jpg", "codeofduty_award.jpg"],
+        "team_photos": ["codeofduty_solo.jpg"],
+        "technologies": ["C++", "Algorithms", "Data Structures", "Dynamic Programming"],
+        "awards": ["Championship Winner", "Fastest Solution Award", "₹15,000 Prize Money"]
+      },
+      {
+        "event": "Coding Blocks LPU",
+        "result": "2nd Place – Web Development Challenge",
+        "monthYear": "January 2023",
+        "host": "Lovely Professional University",
+        "teamSize": 3,
+        "event_photos": ["codingblocks_webapp.jpg", "codingblocks_backend.jpg", "codingblocks_ceremony.jpg"],
+        "team_photos": ["codingblocks_team1.jpg", "codingblocks_team2.jpg", "codingblocks_team3.jpg"],
+        "technologies": ["React", "Node.js", "MongoDB", "Express.js"],
+        "awards": ["2nd Place Winner", "Best Backend Implementation", "Internship Opportunity"]
+      }
+    ]
+  },
+  "contact": {
+    "email": "sreecharan9484@example.com",
+    "phone": "+91 9876543210",
+    "location": "Noida, India "
+  },
+  "footer": "© 2025 K Sree Charan. Built with Next.js and Tailwind CSS."
+}
