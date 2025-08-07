@@ -13,10 +13,10 @@
       "role": "Full Stack Developer",
       "type": "Full-time",
       "company": "MAQ Software Solutions",
-      "years": "2023 - Present",
-      "location": "Hyderabad, India",
-      "achievements": ["Led development of 5+ web applications", "Improved app performance by 40%", "Mentored 2 junior developers"],
-      "technologies": ["React", "Node.js", "TypeScript", "MongoDB", "Express.js", "AWS"]
+      "years": "2025 - Present",
+      "location": "Noida, India",
+      "achievements": ["development of 5+ web applications", "Improved app performance by 40%", "Mentored 2 junior developers"],
+      "technologies": ["Node.js", "TypeScript", "MongoDB", "Express.js", "AWS","Airflow","AI/ML"]
     },
     {
       "role": "Software Developer Intern",
@@ -25,7 +25,7 @@
       "years": "2022 - 2023",
       "location": "Remote",
       "achievements": ["Completed 3 major projects", "Received outstanding performance rating", "Converted to full-time position"],
-      "technologies": ["React", "JavaScript", "HTML/CSS", "Git", "REST APIs"]
+      "technologies": ["Python", "Machine Learning", "TensorFlow", "Pandas", "NumPy", "Scikit-learn", "Deep Learning", "AI/ML", "Data Science"]
     },
     {
       "role": "Freelance Web Developer",
@@ -34,7 +34,7 @@
       "years": "2021 - 2022",
       "location": "Remote",
       "achievements": ["Completed 10+ client projects", "Maintained 100% client satisfaction", "Built recurring revenue stream"],
-      "technologies": ["HTML", "CSS", "JavaScript", "WordPress", "PHP"]
+      "technologies": ["Python", "Machine Learning", "AI/ML", "TensorFlow", "PyTorch", "Computer Vision", "NLP", "Data Analytics", "MLOps"]
     }
   ],
   "education": [
