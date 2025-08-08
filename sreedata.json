@@ -1,7 +1,7 @@
 {
   "name": "K Sree Charan",
   "title": "Full Stack Developer at MAQ Software Solutions",
-  "technologies": ["React", "Node.js", "TypeScript", "Next.js"],
+  "technologies": ["Python", "Machine Learning", "TensorFlow", "Pandas", "NumPy", "Scikit-learn", "Deep Learning", "AI/ML", "Data Science"],
   "experienceSummary": {
     "yearsExperience": "1+",
     "projectsCompleted": "15+",
@@ -42,7 +42,7 @@
       "degree": "Bachelor of Technology",
       "field": "Computer Science Engineering",
       "institution": "Your University Name",
-      "years": "2020 - 2024",
+      "years": "2022 - 2026",
       "location": "Your City, India",
       "grade": "9.0 CGPA",
       "achievements": ["Dean's List for Academic Excellence", "President of Computer Science Club", "Winner of Inter-College Coding Competition", "Published research paper on Web Technologies"]
@@ -51,9 +51,9 @@
       "qualification": "Senior Secondary (12th)",
       "field": "Science (PCM)",
       "institution": "Your School Name",
-      "years": "2018 - 2020",
+      "years": "2021 - 2022",
       "location": "Your City, India",
-      "grade": "94.82%",
+      "grade": "81.82%",
       "achievements": ["School Topper in Computer Science", "State Level Mathematics Olympiad Participant", "Science Club Secretary"]
     }
   ],
@@ -124,7 +124,6 @@
       "teamSize": 4,
       "Members" : ["K Sree Charan", "Bighnesh Kumar Sahoo", "Shubham Pandey", "Sarthak Awasthi"],    
       "Project_photo" :["agrivision_dashboard.jpg", "agrivision_crop_detection.jpg", "agrivision_analytics.jpg"],
-      "Member_photos" : ["ksreecharan.jpg", "bighnesh.jpg", "shubham.jpg", "sarthak.jpg"],
       "githubLink": "https://github.com/yourusername/agri-vision",
       "technologies": ["React", "Node.js", "Python", "and more"],
       "features": ["AI‑powered plant disease detection", "Crop growth monitoring", "Market price predictions"]

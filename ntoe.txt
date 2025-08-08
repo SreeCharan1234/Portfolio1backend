@@ -1,0 +1,195 @@
+"Member_photos" : [
+    "member-photoes/Abhishek Kumar.jpg",
+    "member-photoes/Aman.jpg", 
+    "member-photoes/Amit.jpg",
+    "member-photoes/Badal.jpg",
+    "member-photoes/Bighnesh.jpg",
+    "member-photoes/Hardik.jpg",
+    "member-photoes/Ksreecharan.jpg",
+    "member-photoes/Rehan.jpg",
+    "member-photoes/Ritik.jpg",
+    "member-photoes/Sarthak.jpg",
+    "member-photoes/Shafe.jpg",
+    "member-photoes/Shivani.jpg",
+    "member-photoes/Shubham Kumar.jpg",
+    "member-photoes/Shubham.jpg",
+    "member-photoes/Srishti Singh.jpg",
+    "member-photoes/Sushil.jpg"
+],
+
+"Hackathon_photos" : {
+    "general" : [
+        "hackathons/1.jpg",
+        "hackathons/2.jpg",
+        "hackathons/3.jpg",
+        "hackathons/4.jpg",
+        "hackathons/5.jpg",
+        "hackathons/main.jpg"
+    ],
+    "arena" : [
+        "hackathons/arena/1.jpg",
+        "hackathons/arena/2.jpg",
+        "hackathons/arena/3.jpg",
+        "hackathons/arena/4.jpg",
+        "hackathons/arena/5.jpg",
+        "hackathons/arena/main.jpg"
+    ],
+    "build-a-thon" : [
+        "hackathons/build-a-thon/1717163413765.jpg",
+        "hackathons/build-a-thon/2.jpg",
+        "hackathons/build-a-thon/3.jpg",
+        "hackathons/build-a-thon/4.jpg",
+        "hackathons/build-a-thon/5.jpg"
+    ],
+    "code-a-haunt" : [
+        "hackathons/code-a-haunt/main.jpg"
+    ],
+    "code-of-duty" : [
+        "hackathons/code-of-duty/1.jpg",
+        "hackathons/code-of-duty/2.jpg",
+        "hackathons/code-of-duty/3.jpg",
+        "hackathons/code-of-duty/4.jpg",
+        "hackathons/code-of-duty/5.jpg",
+        "hackathons/code-of-duty/main.jpg"
+    ],
+    "codingblockslpu" : [
+        "hackathons/codingblockslpu/1.jpg",
+        "hackathons/codingblockslpu/2.jpg",
+        "hackathons/codingblockslpu/3.jpg",
+        "hackathons/codingblockslpu/main.jpg"
+    ],
+    "devfest" : [
+        "hackathons/devfest/1.jpg",
+        "hackathons/devfest/2.jpg",
+        "hackathons/devfest/3.jpg",
+        "hackathons/devfest/4.jpg",
+        "hackathons/devfest/5.jpg",
+        "hackathons/devfest/main.jpg"
+    ],
+    "kriyeta3.0" : [
+        "hackathons/kriyeta3.0/1.jpg",
+        "hackathons/kriyeta3.0/2.jpg",
+        "hackathons/kriyeta3.0/3.jpg",
+        "hackathons/kriyeta3.0/4.jpg",
+        "hackathons/kriyeta3.0/5.jpg",
+        "hackathons/kriyeta3.0/6.jpg",
+        "hackathons/kriyeta3.0/7.jpg",
+        "hackathons/kriyeta3.0/8.jpg",
+        "hackathons/kriyeta3.0/main.jpg"
+    ],
+    "microsoft" : [
+        "hackathons/microsoft/1.jpg",
+        "hackathons/microsoft/2.jpg",
+        "hackathons/microsoft/3.jpg",
+        "hackathons/microsoft/4.jpg",
+        "hackathons/microsoft/5.jpg",
+        "hackathons/microsoft/6.jpg",
+        "hackathons/microsoft/7.jpg",
+        "hackathons/microsoft/main.jpg"
+    ],
+    "other" : [
+        "hackathons/other/1.png",
+        "hackathons/other/2.png",
+        "hackathons/other/3.jpg",
+        "hackathons/other/main.jpg"
+    ]
+},
+
+"Project_photos" : {
+    "general" : [
+        "projects/apiofondemand.png",
+        "projects/cropdetails.png",
+        "projects/ecosystem.png",
+        "projects/landingpage.png",
+        "projects/plantai.png",
+        "projects/plantfind.png",
+        "projects/plantgrpth.png",
+        "projects/seasibak cropPlanner.png",
+        "projects/voicetotext.png"
+    ],
+    "agrivision" : [
+        "projects/agrivision/apiofondemand.png",
+        "projects/agrivision/cropdetails.png",
+        "projects/agrivision/ecosystem.png",
+        "projects/agrivision/landingpage.png",
+        "projects/agrivision/plantai.png",
+        "projects/agrivision/plantfind.png",
+        "projects/agrivision/plantgrpth.png",
+        "projects/agrivision/seasibak cropPlanner.png",
+        "projects/agrivision/voicetotext.png"
+    ],
+    "code-off-duty" : [
+        "projects/code-off-duty/1.png",
+        "projects/code-off-duty/2.png",
+        "projects/code-off-duty/3.png",
+        "projects/code-off-duty/4.png",
+        "projects/code-off-duty/5.png",
+        "projects/code-off-duty/6.png",
+        "projects/code-off-duty/7.png",
+        "projects/code-off-duty/8.png",
+        "projects/code-off-duty/9.png",
+        "projects/code-off-duty/10.png",
+        "projects/code-off-duty/11.png",
+        "projects/code-off-duty/12.png",
+        "projects/code-off-duty/13.png",
+        "projects/code-off-duty/14.png",
+        "projects/code-off-duty/15.png"
+    ],
+    "health-buddy" : [
+        "projects/health-buddy/1.jpg",
+        "projects/health-buddy/2.jpg",
+        "projects/health-buddy/3.jpg",
+        "projects/health-buddy/4.jpg",
+        "projects/health-buddy/5.jpg",
+        "projects/health-buddy/6.jpg",
+        "projects/health-buddy/7.jpg",
+        "projects/health-buddy/8.jpg",
+        "projects/health-buddy/9.jpg",
+        "projects/health-buddy/10.jpg",
+        "projects/health-buddy/dashbord.png",
+        "projects/health-buddy/heartdiseasePrediction.jpg",
+        "projects/health-buddy/login.png",
+        "projects/health-buddy/nearbychemit.png",
+        "projects/health-buddy/nearbyhospitals.png",
+        "projects/health-buddy/nearbymedicines.png"
+    ],
+    "sarthi" : [
+        "projects/sarthi/aboutus.png",
+        "projects/sarthi/feedback.png",
+        "projects/sarthi/home.png",
+        "projects/sarthi/paymentgateway.png",
+        "projects/sarthi/pikle.png",
+        "projects/sarthi/razor pay.png",
+        "projects/sarthi/work.png"
+    ],
+    "study-buddy" : [
+        "projects/study-buddy/1 vs 1.png",
+        "projects/study-buddy/1 vs 1 2.png",
+        "projects/study-buddy/1 vs 1 3.htm",
+        "projects/study-buddy/1 vs 1 4.png",
+        "projects/study-buddy/1vs1 1.png",
+        "projects/study-buddy/code editor 2.png",
+        "projects/study-buddy/codeeditor.png",
+        "projects/study-buddy/dashboard.png",
+        "projects/study-buddy/leetcode.png",
+        "projects/study-buddy/linkedin.htm",
+        "projects/study-buddy/roadmap.png",
+        "projects/study-buddy/Screenshot 2025-01-11 122732.png",
+        "projects/study-buddy/signup.png",
+        "projects/study-buddy/testyourself1.png"
+    ],
+    "surasksha-suchak" : [
+        "projects/surasksha-suchak/1.jpg",
+        "projects/surasksha-suchak/2.jpg",
+        "projects/surasksha-suchak/3.jpg",
+        "projects/surasksha-suchak/4.jpg",
+        "projects/surasksha-suchak/5.jpg",
+        "projects/surasksha-suchak/6.jpg",
+        "projects/surasksha-suchak/7.jpg",
+        "projects/surasksha-suchak/8.jpg"
+    ]
+}
+
+
+
+
