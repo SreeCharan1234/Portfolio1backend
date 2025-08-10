@@ -1,31 +1,23 @@
-# Flask and API dependencies
+# Basic dependencies
 Flask==2.3.3
 Flask-CORS==4.0.0
 flasgger==0.9.7.1
-Werkzeug==2.3.7
-
-# ML and Vector Search dependencies
-sentence-transformers==2.2.2
-faiss-cpu==1.7.4
-numpy==1.24.3
-transformers==4.35.0
-torch==2.1.0
-scikit-learn==1.3.0
-
-# Additional dependencies
 python-dotenv==1.0.0
-requests==2.31.0
-pyyaml==6.0.1
-pytz==2023.3
-typing-extensions==4.7.1
-pathlib2==2.3.7.post1
-
-# Optional: Keep existing FastAPI deps if needed
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-python-multipart==0.0.6
-aiofiles==23.2.1
-google-generativeai==0.3.2
-
-# Deployment
+Werkzeug==2.3.7
 gunicorn==21.2.0
+
+# AI and ML dependencies
+google-generativeai==0.3.2
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Utility dependencies
+requests>=2.31.0
+pyyaml>=6.0.0
+pytz>=2023.3
+typing-extensions>=4.7.1
+
+# Explicitly include setuptools for Render
+setuptools>=68.0.0
+wheel>=0.41.0

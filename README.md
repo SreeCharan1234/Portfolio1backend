@@ -36,15 +36,18 @@ http://localhost:5000/docs
 - `GET /`: Home endpoint to check if the API is running
 - `POST /chat`: Send a query to get information about the portfolio
 
-## Deployment
+## Deployment to Render
 
-This application can be deployed to any platform that supports Python applications:
-
-- Heroku
-- Render
-- AWS Elastic Beanstalk
-- Google App Engine
-- Azure App Service
+1. Create a new Web Service on Render
+2. Connect your GitHub repository
+3. Use the following settings:
+   - Environment: Python
+   - Build Command: `./build.sh`
+   - Start Command: `gunicorn app:app`
+4. Add environment variables:
+   - `GEMINI_API_KEY`: Your Google Gemini API key
+   - `PORT`: 10000 (Render's default)
+   - `FLASK_DEBUG`: 0
 
 ## Environment Variables
 
