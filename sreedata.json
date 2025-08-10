@@ -41,18 +41,18 @@
     {
       "degree": "Bachelor of Technology",
       "field": "Computer Science Engineering",
-      "institution": "Your University Name",
+      "institution": "Lovely Professional University",
       "years": "2022 - 2026",
-      "location": "Your City, India",
+      "location": "Punjab, India",
       "grade": "9.0 CGPA",
       "achievements": ["Dean's List for Academic Excellence", "President of Computer Science Club", "Winner of Inter-College Coding Competition", "Published research paper on Web Technologies"]
     },
     {
       "qualification": "Senior Secondary (12th)",
       "field": "Science (PCM)",
-      "institution": "Your School Name",
+      "institution": "Kendriya Vidyalaya",
       "years": "2021 - 2022",
-      "location": "Your City, India",
+      "location": "Delhi, India",
       "grade": "81.82%",
       "achievements": ["School Topper in Computer Science", "State Level Mathematics Olympiad Participant", "Science Club Secretary"]
     }
