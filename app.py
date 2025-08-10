@@ -39,7 +39,8 @@ genai.configure(api_key=GEMINI_API_KEY)
 json_file_path = "sreedata.json"
 data = load_data(json_file_path)
 text_chunks, original_data = preprocess_data(data)
-model = SentenceTransformer('all-MiniLM-L6-v2')
+
+model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
 
 @app.route("/chat", methods=["POST"])
 @swag_from({
