@@ -3,6 +3,11 @@ from flasgger import Swagger, swag_from
 from test import load_data, preprocess_data, find_similar_content
 from sentence_transformers import SentenceTransformer
 import google.generativeai as genai
+from dotenv import load_dotenv
+import os
+
+# Load environment variables
+load_dotenv()
 
 app = Flask(__name__)
 
@@ -23,7 +28,11 @@ swagger_config = {
 
 swagger = Swagger(app, config=swagger_config)
 
-GEMINI_API_KEY = "AIzaSyAWDUMXlv5JWhQOqDuBHBu01WijtD0igBE"  # Replace with your actual key
+# Get API key from environment variable
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+if not GEMINI_API_KEY:
+    raise ValueError("GEMINI_API_KEY environment variable is not set")
+    
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Load and preprocess data once at startup
@@ -101,8 +110,12 @@ def chat():
         prompt = f"Context:\n{context_text}\n\nUser Query: {user_query}\nAnswer based on the context above."
 
         # Call Gemini with a valid model name
-        # Using gemini-1.5-flash which is a valid model name
-        response = genai.GenerativeModel("gemini-1.5-flash").generate_content(prompt)
+        try:
+            response = genai.GenerativeModel("gemini-1.5-flash").generate_content(prompt)
+        except Exception as model_error:
+            # Fallback to gemini-pro if the flash model is not available
+            print(f"Error with gemini-1.5-flash: {model_error}. Falling back to gemini-pro.")
+            response = genai.GenerativeModel("gemini-pro").generate_content(prompt)
 
         return jsonify({
             "query": user_query,
@@ -111,6 +124,7 @@ def chat():
         })
 
     except Exception as e:
+        print(f"Error in chat endpoint: {str(e)}")
         return jsonify({"error": str(e)}), 500
 
 @app.route("/", methods=["GET"])
@@ -137,6 +151,9 @@ def home():
     })
 
 if __name__ == "__main__":
-    # Run the app on 0.0.0.0 to make it accessible from any network interface
-    # Default port is 5000, but explicitly stating it for clarity
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    # Get port and host from environment variables or use defaults
+    port = int(os.getenv("PORT", 5000))
+    host = os.getenv("HOST", "0.0.0.0")
+    
+    # Run the app
+    app.run(host=host, port=port, debug=(os.getenv("FLASK_DEBUG", "0") == "1"))

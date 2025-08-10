@@ -1,2 +1,61 @@
-# Portfolio1backend
-This is python backend 
+# Portfolio Backend API
+
+This is a Flask API backend for a portfolio website that uses Google's Generative AI to answer questions about the portfolio data.
+
+## Setup
+
+1. Clone the repository
+2. Create a virtual environment and activate it
+   ```bash
+   python -m venv venv
+   # On Windows
+   venv\Scripts\activate
+   # On Unix or MacOS
+   source venv/bin/activate
+   ```
+3. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Set up your environment variables in a `.env` file (see .env.example)
+5. Run the application
+   ```bash
+   python app.py
+   ```
+
+## API Documentation
+
+Once the application is running, you can access the Swagger documentation at:
+
+```
+http://localhost:5000/docs
+```
+
+## Endpoints
+
+- `GET /`: Home endpoint to check if the API is running
+- `POST /chat`: Send a query to get information about the portfolio
+
+## Deployment
+
+This application can be deployed to any platform that supports Python applications:
+
+- Heroku
+- Render
+- AWS Elastic Beanstalk
+- Google App Engine
+- Azure App Service
+
+## Environment Variables
+
+- `GEMINI_API_KEY`: Your Google Gemini API key
+- `PORT`: Port to run the application (default: 5000)
+- `HOST`: Host to run the application (default: 0.0.0.0)
+- `FLASK_DEBUG`: Enable debug mode (0 or 1, default: 0)
+
+## Technologies Used
+
+- Flask
+- Google Generative AI
+- Sentence Transformers
+- Flasgger (Swagger)
