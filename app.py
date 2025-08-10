@@ -40,7 +40,14 @@ json_file_path = "sreedata.json"
 data = load_data(json_file_path)
 text_chunks, original_data = preprocess_data(data)
 
-model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
+# Initialize model as None, will be loaded on first request
+model = None
+
+def get_model():
+    global model
+    if model is None:
+        model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
+    return model
 
 @app.route("/chat", methods=["POST"])
 @swag_from({
@@ -102,7 +109,8 @@ def chat():
             return jsonify({"error": "Query is required"}), 400
 
         # Find similar content
-        similar_content = find_similar_content(user_query, text_chunks, original_data, model)
+        current_model = get_model()
+        similar_content = find_similar_content(user_query, text_chunks, original_data, current_model)
 
         # Prepare context for Gemini
         context_text = "\n".join(

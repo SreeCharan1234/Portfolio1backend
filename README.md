@@ -43,11 +43,19 @@ http://localhost:5000/docs
 3. Use the following settings:
    - Environment: Python
    - Build Command: `./build.sh`
-   - Start Command: `gunicorn app:app`
+   - Start Command: `gunicorn wsgi:app`
 4. Add environment variables:
    - `GEMINI_API_KEY`: Your Google Gemini API key
    - `PORT`: 10000 (Render's default)
    - `FLASK_DEBUG`: 0
+
+### Troubleshooting Render Deployment
+
+If you encounter "Out of memory" errors on Render:
+- Make sure to use the `render.yaml` configuration file
+- Ensure your environment is correctly set up with all environment variables
+- The app is configured to lazy-load the ML model to save memory
+- If still encountering issues, consider upgrading your Render plan for more resources
 
 ## Environment Variables
 

@@ -5,7 +5,7 @@ set -o errexit
 # Install the latest version of pip
 pip install --upgrade pip
 
-# Install dependencies
+# Install dependencies with specific versions
 pip install -r requirements.txt
 
 # Make sure setuptools is properly installed
@@ -18,3 +18,7 @@ echo "Pip version:"
 pip --version
 echo "Setuptools version:"
 pip show setuptools
+
+# Make sure port is set correctly
+echo "PORT: $PORT"
+echo "Setting up port binding for Render deployment"
